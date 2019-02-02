@@ -1,0 +1,417 @@
+{
+    "metadata": {
+        "provider": "Oxford University Press"
+    },
+    "results": [
+        {
+            "id": "ball",
+            "language": "en",
+            "lexicalEntries": [
+                {
+                    "entries": [
+                        {
+                            "etymologies": [
+                                "Middle English: from Old Norse bǫllr, of Germanic origin"
+                            ],
+                            "grammaticalFeatures": [
+                                {
+                                    "text": "Singular",
+                                    "type": "Number"
+                                }
+                            ],
+                            "homographNumber": "100",
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a solid or hollow spherical or egg-shaped object that is kicked, thrown, or hit in a game"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "a cricket ball"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0068850.005",
+                                    "short_definitions": [
+                                        "round or ovoid object used in games"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "a spherical object or mass of material"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he crushed the card into a ball"
+                                                },
+                                                {
+                                                    "text": "a ball of wool"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.008",
+                                            "short_definitions": [
+                                                "round object"
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "ball",
+                                                    "sense_id": "t_en_gb0001113.001"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a solid non-explosive missile for a firearm."
+                                            ],
+                                            "domains": [
+                                                "Weapons"
+                                            ],
+                                            "id": "m_en_gbus0068850.009",
+                                            "registers": [
+                                                "historical"
+                                            ],
+                                            "short_definitions": [
+                                                "solid round projectile for firearm"
+                                            ],
+                                            "thesaurusLinks": [
+                                                {
+                                                    "entry_id": "ball",
+                                                    "sense_id": "t_en_gb0001113.002"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "a game played with a ball"
+                                            ],
+                                            "domains": [
+                                                "Sport"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he comes across a group of kids playing ball"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.068",
+                                            "notes": [
+                                                {
+                                                    "text": "mass noun",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "short_definitions": [
+                                                "game played with ball"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "baseball"
+                                            ],
+                                            "domains": [
+                                                "Sport"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "young men would graduate from college and enter pro ball"
+                                                },
+                                                {
+                                                    "text": "kids have been playing ball in that lot for almost a hundred years"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.010",
+                                            "notes": [
+                                                {
+                                                    "text": "mass noun",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "regions": [
+                                                "North American"
+                                            ],
+                                            "short_definitions": [
+                                                "game played with ball"
+                                            ]
+                                        }
+                                    ],
+                                    "thesaurusLinks": [
+                                        {
+                                            "entry_id": "ball",
+                                            "sense_id": "t_en_gb0001113.001"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(in cricket) a delivery of the ball by the bowler to the batsman"
+                                    ],
+                                    "domains": [
+                                        "Cricket"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "his half century came off only forty balls"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0068850.071",
+                                    "short_definitions": [
+                                        "delivery of ball to batsman"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "(in soccer) a pass of the ball in a specified direction or manner"
+                                            ],
+                                            "domains": [
+                                                "Soccer"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "Whelan sent a long ball to Goddard"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.072",
+                                            "short_definitions": [
+                                                "pass of ball"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "(in baseball) a pitch delivered outside the strike zone which the batter does not attempt to hit"
+                                            ],
+                                            "domains": [
+                                                "Baseball"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "he ignored it completely, and the umpire called it a ball"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.073",
+                                            "short_definitions": [
+                                                "pitch delivered outside strike zone"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "the rounded protuberant part of the foot at the base of the big toe."
+                                    ],
+                                    "id": "m_en_gbus0068850.016",
+                                    "short_definitions": [
+                                        "rounded part of foot at base of big toe"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "the rounded protuberant part of the hand at the base of the thumb."
+                                            ],
+                                            "id": "m_en_gbus0068850.018",
+                                            "short_definitions": [
+                                                "rounded part of hand at base of thumb"
+                                            ],
+                                            "variantForms": [
+                                                {
+                                                    "text": "ball of the thumb"
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "variantForms": [
+                                        {
+                                            "text": "ball of the foot"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "etymologies": [
+                                "early 17th century: from French bal ‘a dance’, from late Latin ballare ‘to dance’; related to Greek ballizein ‘to dance’ (also ballein ‘to throw’)"
+                            ],
+                            "grammaticalFeatures": [
+                                {
+                                    "text": "Singular",
+                                    "type": "Number"
+                                }
+                            ],
+                            "homographNumber": "200",
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "a formal social gathering for dancing"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Anne danced with the captain at a fancy-dress ball"
+                                        },
+                                        {
+                                            "text": "a ball gown"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0068860.005",
+                                    "short_definitions": [
+                                        "formal social gathering for dancing"
+                                    ],
+                                    "thesaurusLinks": [
+                                        {
+                                            "entry_id": "ball",
+                                            "sense_id": "t_en_gb0001114.001"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en",
+                    "lexicalCategory": "Noun",
+                    "pronunciations": [
+                        {
+                            "audioFile": "http://audio.oxforddictionaries.com/en/mp3/ball_gb_1.mp3",
+                            "dialects": [
+                                "British English"
+                            ],
+                            "phoneticNotation": "IPA",
+                            "phoneticSpelling": "bɔːl"
+                        }
+                    ],
+                    "text": "ball"
+                },
+                {
+                    "entries": [
+                        {
+                            "grammaticalFeatures": [
+                                {
+                                    "text": "Transitive",
+                                    "type": "Subcategorization"
+                                },
+                                {
+                                    "text": "Present",
+                                    "type": "Tense"
+                                }
+                            ],
+                            "homographNumber": "101",
+                            "senses": [
+                                {
+                                    "definitions": [
+                                        "squeeze or form (something) into a rounded shape"
+                                    ],
+                                    "examples": [
+                                        {
+                                            "text": "Robert balled up his napkin and threw it on to his plate"
+                                        }
+                                    ],
+                                    "id": "m_en_gbus0068850.022",
+                                    "short_definitions": [
+                                        "form something into ball"
+                                    ],
+                                    "subsenses": [
+                                        {
+                                            "definitions": [
+                                                "clench (one's fist) tightly"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "she balled her fist so that the nails dug into her palms"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.028",
+                                            "short_definitions": [
+                                                "clench fist tightly"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "form a round shape"
+                                            ],
+                                            "examples": [
+                                                {
+                                                    "text": "the fishing nets eventually ball up and sink"
+                                                }
+                                            ],
+                                            "id": "m_en_gbus0068850.029",
+                                            "notes": [
+                                                {
+                                                    "text": "no object",
+                                                    "type": "grammaticalNote"
+                                                }
+                                            ],
+                                            "short_definitions": [
+                                                "form ball"
+                                            ]
+                                        },
+                                        {
+                                            "definitions": [
+                                                "wrap the root ball of (a tree or shrub) to protect it during transportation."
+                                            ],
+                                            "domains": [
+                                                "Horticulture"
+                                            ],
+                                            "id": "m_en_gbus0068850.030",
+                                            "short_definitions": [
+                                                "wrap root ball of tree or shrub"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "have sexual intercourse with."
+                                    ],
+                                    "domains": [
+                                        "Sex"
+                                    ],
+                                    "id": "m_en_gbus0068850.032",
+                                    "regions": [
+                                        "North American"
+                                    ],
+                                    "registers": [
+                                        "vulgar slang"
+                                    ],
+                                    "short_definitions": [
+                                        "have sex with someone"
+                                    ]
+                                },
+                                {
+                                    "definitions": [
+                                        "(of a flower) fail to open properly, decaying in the half-open bud."
+                                    ],
+                                    "domains": [
+                                        "Horticulture"
+                                    ],
+                                    "id": "m_en_gbus0068850.075",
+                                    "notes": [
+                                        {
+                                            "text": "no object",
+                                            "type": "grammaticalNote"
+                                        }
+                                    ],
+                                    "regions": [
+                                        "British"
+                                    ],
+                                    "short_definitions": [
+                                        "(of flower) fail to open properly"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "language": "en",
+                    "lexicalCategory": "Verb",
+                    "pronunciations": [
+                        {
+                            "audioFile": "http://audio.oxforddictionaries.com/en/mp3/ball_gb_1.mp3",
+                            "dialects": [
+                                "British English"
+                            ],
+                            "phoneticNotation": "IPA",
+                            "phoneticSpelling": "bɔːl"
+                        }
+                    ],
+                    "text": "ball"
+                }
+            ],
+            "type": "headword",
+            "word": "ball"
+        }
+    ]
+}
