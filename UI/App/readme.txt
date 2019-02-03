@@ -1,0 +1,1 @@
+This is readme of the cross-platform application using PyKivy.
