@@ -1,5 +1,6 @@
 import requests
 import configparser
+from Code.utility.logger import logger
 
 
 def read_config_file():
@@ -9,7 +10,7 @@ def read_config_file():
     language = ""
     config = configparser.ConfigParser()
     try:
-        config.read_file(open(r'config.ini'))
+        config.read_file(open(r'config/config.ini'))
         app_id = config.get("APP", "APP_ID")
         app_key = config.get("APP", "APP_KEY")
         language = str(config.get("APP", "LANGUAGE"))
@@ -30,6 +31,7 @@ def get_result(word):
         url = "https://od-api.oxforddictionaries.com/api/v1/entries/" + language + '/' + search_word + '/' + "regions=us"
         credentials = {'app_id': app_id, 'app_key': app_key}
         response = requests.get(url, headers=credentials)
+
     except requests.RequestException:
         handle_exception(response.status_code)
 
@@ -137,6 +139,7 @@ def handle_exception(status_code):
 
 if __name__ == '__main__':
     word = input("Enter the word to be searched: ")
+    logger.info("Word Searched: %s", word)
     get_result(word)
 
 # print("code: {}\n".format(response.status_code))
