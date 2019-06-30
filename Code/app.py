@@ -1,6 +1,6 @@
 import requests
 import configparser
-from Code.utility.logger import logger
+# from .utility.logger import logger
 
 
 def read_config_file():
@@ -139,7 +139,7 @@ def handle_exception(status_code):
 
 if __name__ == '__main__':
     word = input("Enter the word to be searched: ")
-    logger.info("Word Searched: %s", word)
+    # logger.info("Word Searched: %s", word)
     get_result(word)
 
 # print("code: {}\n".format(response.status_code))
