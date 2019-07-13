@@ -1,1 +1,1 @@
-This is the readme of the web app of the dictionary using HTML & CSS.
+This is the readme of the web app of the dictionary using HTML & CSS combined with Django.

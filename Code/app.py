@@ -1,6 +1,6 @@
 import requests
 import configparser
-# from .utility.logger import logger
+# import json
 
 
 def read_config_file():
@@ -28,9 +28,13 @@ def get_result(word):
     print(search_word)
 
     try:
-        url = "https://od-api.oxforddictionaries.com/api/v1/entries/" + language + '/' + search_word + '/' + "regions=us"
+        url = "https://od-api.oxforddictionaries.com:443/api/v2/entries/" + language + '/' + search_word #+ '/' + "regions=us"
         credentials = {'app_id': app_id, 'app_key': app_key}
         response = requests.get(url, headers=credentials)
+
+        print("code {}\n".format(response.status_code))
+        # print("text \n" + response.text)
+        # print("json \n" + json.dumps(response.json()))
 
     except requests.RequestException:
         handle_exception(response.status_code)
@@ -68,7 +72,8 @@ def get_result(word):
 
 
 def get_definitions(search_dict, field):
-    """Takes a dict with nested lists and dicts,
+    """
+    Takes a dict with nested lists and dicts,
     and searches all dicts for a key of the field
     provided.
     """
