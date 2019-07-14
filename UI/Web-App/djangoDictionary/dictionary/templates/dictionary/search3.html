@@ -1,0 +1,51 @@
+{% load staticfiles %}
+<html>
+<head>
+    <title>
+        My Dictionary
+    </title>
+<!--    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="{% static 'css/search3.css' %}">
+</head>
+<body style="background-color: bisque">
+<div>
+
+<form class="form-wrapper">
+    {% csrf_token %}
+    <h1 style="color: brown">My Dictionary</h1>
+    <input type="text" id="search" placeholder="Search for..." name="search_word" required>
+    <input type="submit" value="go" id="submit">
+</form>
+</div>
+{% if dictionary %}
+    <div style="height: 300px; ">
+        <section>
+            <h1 style="color: brown; font-size: 24px">Result</h1>
+        </section>
+
+        <section>
+
+            <h2>Long Meanings</h2>
+            {% for item in dictionary.long_meanings %}
+                <p style="color: crimson; font-size: 14px">
+                    {{ item }}
+                </p>
+            {% endfor %}
+        </section>
+        <br>
+        {% if dictionary.short_meanings %}
+            <section>
+                <h2>Short Meanings</h2>
+                {% for item in dictionary.short_meanings %}
+                    <p style="color: crimson; font-size: 14px">
+                        {{ item }}
+                    </p>
+                {% endfor %}
+            </section>
+        {% endif %}
+
+    </div>
+{% endif %}
+</body>
+</html>

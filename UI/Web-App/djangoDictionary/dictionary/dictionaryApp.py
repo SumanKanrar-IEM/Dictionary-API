@@ -9,8 +9,9 @@ def read_config_file():
     app_id = ""
     language = ""
     config = configparser.ConfigParser()
+    print("Config Object: ", config)
     try:
-        config.read_file(open(r'config/config.ini'))
+        config.read_file(open(r'dictionary/config/config.ini'))
         app_id = config.get("APP", "APP_ID")
         app_key = config.get("APP", "APP_KEY")
         language = str(config.get("APP", "LANGUAGE"))
@@ -23,7 +24,7 @@ def read_config_file():
 
 def get_result(word):
     app_id, app_key, language = read_config_file()
-
+    print("Cred received : ", app_key)
     search_word = word.lower()
     print(search_word)
 
@@ -34,7 +35,7 @@ def get_result(word):
         response = requests.get(url, headers=credentials)
 
         print("code {}\n".format(response.status_code))
-        # print("text \n" + response.text)
+        print("text \n" + response.text)
         # print("json \n" + json.dumps(response.json()))
 
     except requests.RequestException:
@@ -66,6 +67,9 @@ def get_result(word):
                     short_definitions.append(str(each_item))
                     # print(str(each_item))
         print(short_definitions)
+
+        return long_definitions, short_definitions
+
     elif response.status_code == 404:
         print("Word not found. Please enter another word")
         word = input("Enter the word to be searched: ")

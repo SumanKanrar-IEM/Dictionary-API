@@ -1,0 +1,26 @@
+{% load staticfiles %}
+<html>
+<head>
+    <title>
+        My Dictionary
+    </title>
+<!--    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+<!--    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="{% static 'css/search2.css' %}">
+</head>
+
+<body>
+    <form method="POST" action="">
+        {% csrf_token %}
+        <div class="wrap">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Search for...">
+                <button type="submit" class="searchButton" name="mybtn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
